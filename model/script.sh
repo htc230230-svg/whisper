@@ -1,6 +1,6 @@
 
 #!/bin/bash
-#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
+
 # Создаём папку для модели
 mkdir -p whisper_large_v3_ct2
 

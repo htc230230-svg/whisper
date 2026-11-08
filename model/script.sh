@@ -1,13 +1,13 @@
 
 #!/bin/bash
-
+#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
 # Создаём папку для модели
 mkdir -p whisper_large_v3_ct2
 
 # Скачиваем модель через Python с улучшенными параметрами
 docker run --rm \
     -v $(pwd)/whisper_large_v3_ct2:/models \
-    -e HF_TOKEN='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' \
+    -e HF_TOKEN='' \
     python:3.9-slim \
     bash -c "
 pip install --upgrade pip --no-cache-dir && \

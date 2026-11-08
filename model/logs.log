@@ -1,0 +1,666 @@
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+INFO:     Started server process [138]
+INFO:     Waiting for application startup.
+2026-07-27 20:22:44,101 INFO whisper_server: Loading model 'large-v3' | device=cpu compute_type=int8 threads=2 beam=5 max_request_beam=10 word_ts=False max_upload_mb=1024 local_only=True cache=/var/lib/whisper
+ERROR:    Traceback (most recent call last):
+  File "/opt/venv/lib/python3.12/site-packages/starlette/routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/src/api_server.py", line 168, in _lifespan
+    _load_model()
+  File "/opt/src/api_server.py", line 154, in _load_model
+    _model = WhisperModel(
+             ^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 345, in snapshot_download
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+
+ERROR:    Application startup failed. Exiting.
+Error: Whisper server failed to start. Check the container logs for details.
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+INFO:     Started server process [137]
+INFO:     Waiting for application startup.
+2026-07-27 20:22:51,558 INFO whisper_server: Loading model 'large-v3' | device=cpu compute_type=int8 threads=2 beam=5 max_request_beam=10 word_ts=False max_upload_mb=1024 local_only=True cache=/var/lib/whisper
+ERROR:    Traceback (most recent call last):
+  File "/opt/venv/lib/python3.12/site-packages/starlette/routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/src/api_server.py", line 168, in _lifespan
+    _load_model()
+  File "/opt/src/api_server.py", line 154, in _load_model
+    _model = WhisperModel(
+             ^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 345, in snapshot_download
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+
+ERROR:    Application startup failed. Exiting.
+Error: Whisper server failed to start. Check the container logs for details.
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+INFO:     Started server process [137]
+INFO:     Waiting for application startup.
+2026-07-27 20:22:56,846 INFO whisper_server: Loading model 'large-v3' | device=cpu compute_type=int8 threads=2 beam=5 max_request_beam=10 word_ts=False max_upload_mb=1024 local_only=True cache=/var/lib/whisper
+ERROR:    Traceback (most recent call last):
+  File "/opt/venv/lib/python3.12/site-packages/starlette/routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/src/api_server.py", line 168, in _lifespan
+    _load_model()
+  File "/opt/src/api_server.py", line 154, in _load_model
+    _model = WhisperModel(
+             ^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 345, in snapshot_download
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+
+ERROR:    Application startup failed. Exiting.
+Error: Whisper server failed to start. Check the container logs for details.
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+INFO:     Started server process [137]
+INFO:     Waiting for application startup.
+2026-07-27 20:23:01,202 INFO whisper_server: Loading model 'large-v3' | device=cpu compute_type=int8 threads=2 beam=5 max_request_beam=10 word_ts=False max_upload_mb=1024 local_only=True cache=/var/lib/whisper
+ERROR:    Traceback (most recent call last):
+  File "/opt/venv/lib/python3.12/site-packages/starlette/routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/src/api_server.py", line 168, in _lifespan
+    _load_model()
+  File "/opt/src/api_server.py", line 154, in _load_model
+    _model = WhisperModel(
+             ^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 345, in snapshot_download
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+
+ERROR:    Application startup failed. Exiting.
+Error: Whisper server failed to start. Check the container logs for details.
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+INFO:     Started server process [138]
+INFO:     Waiting for application startup.
+2026-07-27 20:23:06,021 INFO whisper_server: Loading model 'large-v3' | device=cpu compute_type=int8 threads=2 beam=5 max_request_beam=10 word_ts=False max_upload_mb=1024 local_only=True cache=/var/lib/whisper
+ERROR:    Traceback (most recent call last):
+  File "/opt/venv/lib/python3.12/site-packages/starlette/routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/src/api_server.py", line 168, in _lifespan
+    _load_model()
+  File "/opt/src/api_server.py", line 154, in _load_model
+    _model = WhisperModel(
+             ^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 345, in snapshot_download
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+
+ERROR:    Application startup failed. Exiting.
+Error: Whisper server failed to start. Check the container logs for details.
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+INFO:     Started server process [137]
+INFO:     Waiting for application startup.
+2026-07-27 20:23:11,085 INFO whisper_server: Loading model 'large-v3' | device=cpu compute_type=int8 threads=2 beam=5 max_request_beam=10 word_ts=False max_upload_mb=1024 local_only=True cache=/var/lib/whisper
+ERROR:    Traceback (most recent call last):
+  File "/opt/venv/lib/python3.12/site-packages/starlette/routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/src/api_server.py", line 168, in _lifespan
+    _load_model()
+  File "/opt/src/api_server.py", line 154, in _load_model
+    _model = WhisperModel(
+             ^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 345, in snapshot_download
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+
+ERROR:    Application startup failed. Exiting.
+Error: Whisper server failed to start. Check the container logs for details.
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+INFO:     Started server process [138]
+INFO:     Waiting for application startup.
+2026-07-27 20:23:17,886 INFO whisper_server: Loading model 'large-v3' | device=cpu compute_type=int8 threads=2 beam=5 max_request_beam=10 word_ts=False max_upload_mb=1024 local_only=True cache=/var/lib/whisper
+ERROR:    Traceback (most recent call last):
+  File "/opt/venv/lib/python3.12/site-packages/starlette/routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/src/api_server.py", line 168, in _lifespan
+    _load_model()
+  File "/opt/src/api_server.py", line 154, in _load_model
+    _model = WhisperModel(
+             ^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 345, in snapshot_download
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+
+ERROR:    Application startup failed. Exiting.
+Error: Whisper server failed to start. Check the container logs for details.
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+INFO:     Started server process [137]
+INFO:     Waiting for application startup.
+2026-07-27 20:23:27,940 INFO whisper_server: Loading model 'large-v3' | device=cpu compute_type=int8 threads=2 beam=5 max_request_beam=10 word_ts=False max_upload_mb=1024 local_only=True cache=/var/lib/whisper
+ERROR:    Traceback (most recent call last):
+  File "/opt/venv/lib/python3.12/site-packages/starlette/routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/src/api_server.py", line 168, in _lifespan
+    _load_model()
+  File "/opt/src/api_server.py", line 154, in _load_model
+    _model = WhisperModel(
+             ^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 345, in snapshot_download
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+
+ERROR:    Application startup failed. Exiting.
+Error: Whisper server failed to start. Check the container logs for details.
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+INFO:     Started server process [137]
+INFO:     Waiting for application startup.
+2026-07-27 20:23:44,369 INFO whisper_server: Loading model 'large-v3' | device=cpu compute_type=int8 threads=2 beam=5 max_request_beam=10 word_ts=False max_upload_mb=1024 local_only=True cache=/var/lib/whisper
+ERROR:    Traceback (most recent call last):
+  File "/opt/venv/lib/python3.12/site-packages/starlette/routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/src/api_server.py", line 168, in _lifespan
+    _load_model()
+  File "/opt/src/api_server.py", line 154, in _load_model
+    _model = WhisperModel(
+             ^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 345, in snapshot_download
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+
+ERROR:    Application startup failed. Exiting.
+Error: Whisper server failed to start. Check the container logs for details.
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+INFO:     Started server process [138]
+INFO:     Waiting for application startup.
+2026-07-27 20:24:13,490 INFO whisper_server: Loading model 'large-v3' | device=cpu compute_type=int8 threads=2 beam=5 max_request_beam=10 word_ts=False max_upload_mb=1024 local_only=True cache=/var/lib/whisper
+ERROR:    Traceback (most recent call last):
+  File "/opt/venv/lib/python3.12/site-packages/starlette/routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/src/api_server.py", line 168, in _lifespan
+    _load_model()
+  File "/opt/src/api_server.py", line 154, in _load_model
+    _model = WhisperModel(
+             ^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 345, in snapshot_download
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+
+ERROR:    Application startup failed. Exiting.
+Error: Whisper server failed to start. Check the container logs for details.
+
+Whisper Docker - https://github.com/hwdsl2/docker-whisper
+
+Warning: Existing Whisper data was found but no API key is configured.
+         Preserving no-auth behavior for backward compatibility.
+         Set WHISPER_API_KEY to enable authentication.
+
+Starting Whisper speech-to-text server...
+  Model:    large-v3
+  Device:   cpu (int8)
+  Language: auto
+  Port:     9000
+  Beam:     5
+  Max request beam: 10
+  Mode:     local-only (no HuggingFace downloads)
+
+INFO:     Started server process [137]
+INFO:     Waiting for application startup.
+2026-07-27 20:25:08,535 INFO whisper_server: Loading model 'large-v3' | device=cpu compute_type=int8 threads=2 beam=5 max_request_beam=10 word_ts=False max_upload_mb=1024 local_only=True cache=/var/lib/whisper
+ERROR:    Traceback (most recent call last):
+  File "/opt/venv/lib/python3.12/site-packages/starlette/routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/src/api_server.py", line 168, in _lifespan
+    _load_model()
+  File "/opt/src/api_server.py", line 154, in _load_model
+    _model = WhisperModel(
+             ^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 681, in __init__
+    model_path = download_model(
+                 ^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/faster_whisper/utils.py", line 116, in download_model
+    return huggingface_hub.snapshot_download(repo_id, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 345, in snapshot_download
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.
+
+ERROR:    Application startup failed. Exiting.
+Error: Whisper server failed to start. Check the container logs for details.
